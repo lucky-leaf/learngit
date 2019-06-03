@@ -1,0 +1,89 @@
+/*公用*/
+.comwidth {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.left {
+  float:left;
+  line-height:50px;
+  font-size:18px;
+}
+.right {
+  float:right;
+}
+
+/*header*/
+.header {
+  height:50px;
+  background-color:#373640;
+  color:#fff;
+}
+.header a:link{
+  color:#fff;
+  text-decoration:underline;
+}
+.cen {
+  height:190px;
+  background-color:#b6f7c1;
+}
+.navbox {
+margin-top:20px;
+padding-left:144px;
+border-bottom:1px solid #63686e;
+}
+a:hover,.navbox .active{
+background-color:#fff;
+background-position:0 -30px;
+border-bottom:1px solid #fff;
+}
+.navbox li{ 
+margin:20px 10px 20px 0;
+width:100px;
+height:35px;
+display:inline-block;
+background-color:gray;
+border:1px solid #63686e;
+text-align:center;
+padding-top:10px;
+border-radius: 25px 25px 0 0;
+margin:0 -2px;
+}
+.navbox a{
+line-height:35px;
+color:#63686e;
+}
+
+.navbox a:link{
+  color:#000;
+}
+
+
+/*main*/
+article {
+  padding: 80px;
+  margin: 10px;
+  background-color:#fff;
+  border:1px solid #63686e;
+  text-align:center;
+      }
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+article {
+  flex-grow: 1;
+}
+
+
+
+
+/*footer*/
+.footer {
+height:85px;
+background-color:#63686e;
+color:#fff;
+text-align:center;
+padding:16px 0;
+}

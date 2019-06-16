@@ -1,0 +1,426 @@
+/*heeder*/
+.Header {
+    height: 1000px;
+    background-image:url("image/Background.png"),
+                    url("image/图层 1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+} 
+.Header .Hello_World {
+    padding-top: 210px;
+    padding-bottom: 80px;
+    font-size: 62px;
+    text-align: center;
+    color: #fff;
+}
+.Header .plan {
+    width: 730px;
+    margin:0 auto;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 100px;
+}
+.Header .form {
+    padding-top: 55px;
+    border:1px solid #797979;
+    margin:0 auto;
+    width: 975px;
+    height:200px;
+}
+.form .account {
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+}
+.form .free {
+    font-size: 12px;
+    text-align: center;
+    color: #797979;
+    padding-bottom: 40px;
+}
+.Header .form input {
+    margin-right: 30px;
+}
+.Header .form .username,
+.Header .form  .pwd {
+    width: 270px;
+    background:transparent;
+    border: 1px solid #fff; 
+    color:#fff;
+}
+.Header .form .submit {
+    width: 125px;
+    padding-right: 20px;
+}
+
+/*feature*/
+.feature {
+    height: 710px;
+}
+.feature .title p:nth-child(1) {
+    margin-top: 90px;
+    margin-bottom:40px;
+    
+    font-size: 18px;
+    line-height: 2em;
+    color: #797979;
+    text-align: center;
+}
+.feature .title p:nth-child(2) {
+    margin-bottom: 90px;
+    width: 720px;
+    padding-left:445px;
+    font-size: 42px;
+    text-align: center;
+} 
+.feature .features {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1060px;
+    
+  } 
+  .feature .features .line {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 135px;
+  }
+  .features .line .features_1,
+  .features .line .features_2,
+  .features .line .features_3,
+  .features .line .features_4 {
+    width: 460px;
+    position: relative;
+  }
+  .features .line .features_1 img,
+  .features .line .features_2 img,
+  .features .line .features_3 img,
+  .features .line .features_4 img {
+    vertical-align:middle; 
+  }
+  .feature .features .line p {
+    display: inline;
+    position: absolute;
+    margin-left: 80px;
+  }
+  .feature .features .line .title {
+      font-size: 20px;
+  }
+  .feature .features .line .body {
+      color: #797979;
+  }
+/*action*/
+.action {
+    height: 800px;
+    background-image:url("image/Background.png"),
+                    url("image/图层 2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: left;
+    position: relative;
+} 
+.action .left {
+    color:#fff;
+    margin-left: 310px;
+    padding-top: 180px;
+}
+.action .left .title,
+.action .left .body {
+    width: 370px;
+}
+.action .left .title {
+    font-size: 42px;
+    margin-bottom: 95px;
+} 
+.action .left .body {
+    line-height: 2em;
+    margin-bottom: 55px;
+}
+.action .left .submit {
+    width: 240px;
+    padding-right: 20px;
+    margin-right: 30px;
+}
+.right .IPad {
+    position: absolute;
+    right: 0;
+    top: calc(50% - 300px);
+    z-index: 1;
+} 
+.right .Screen {
+    position: absolute;
+    right: 0;
+    top: calc(50% - 271px);
+    z-index: 2;
+}
+/*products*/
+.products {
+    height: 580px;
+    text-align: center;
+}
+.art {
+    display: flex; 
+    flex-wrap: wrap; 
+    align-content: space-between; 
+    align-items: flex-start; 
+    margin: 0 auto; 
+    padding-top: 110px; 
+    width: 970px; 
+    height: 380px;
+    justify-content: space-around;
+}
+.products .title p {
+    margin-top:0;
+    margin-bottom: 95px;
+    font-size: 42px;
+    text-align: center;
+}
+.art .product {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 0 auto;
+    width: 970px;
+    height: 245px;    
+  } 
+  .art .product .row {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+.products .singleton,
+.products .hero,
+.products .portland {
+    flex: 1;
+}
+.products .product p {
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 2em;
+    width: 275px;
+    color: #797979;
+    text-align: left;
+}
+/*flow*/
+.flow {
+    height: 1000px;
+}
+.flow .box {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 990px;   
+  }
+.flow .box .flow_1,
+.flow .box .flow_2 {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    position: relative;
+}  
+.flow .flow_1 {
+    margin-top:115px;
+}
+.flow .flow_2 {
+    margin-top: 80px;
+}
+  .flow .body p {
+    display: inline-block;
+    position: absolute;
+} 
+.flow .body p {
+    width: 310px;
+}
+.flow .flow_1 .body img,
+.flow .flow_2 .body img {
+    vertical-align:middle; 
+  }
+.flow_1 .body .title,
+.flow_2 .body .title {
+    font-size: 20px;
+    width: 240px;
+    height: 51px;
+    text-align: left;
+}
+.flow .body p:nth-of-type(even) {
+    color: #797979;
+    line-height: 30px;
+}
+
+
+/*团队*/
+.Team {
+    height: 1080px;
+}
+.team .title p:nth-child(1) {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 42px;
+    text-align: center;
+} 
+.team .title p:nth-child(2) {
+    margin: 0 auto;
+    width: 700px;
+    font-size: 18px;
+    line-height: 2em;
+    color: #797979;
+    text-align: center;
+}
+.team .member {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 0 auto;
+    width: 970px;
+    height: 710px;    
+  } 
+.team .member .line {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+.team .member01, 
+.team .member02, 
+.team .member03, 
+.team .member04 {
+    position: relative;
+} 
+.team .member .cover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    width: 470px;
+    height: 340px;
+    background-image: url("image/Background 拷贝.png");                  
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.team .member .member01:hover .cover, 
+.team .member .member02:hover .cover, 
+.team .member .member03:hover .cover, 
+.team .member .member04:hover .cover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 470px;
+    height: 340px;
+    background-image:url("image/Background 拷贝.png");                  
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;    
+}
+/*联系方式*/
+.contact {
+    height: 700px;
+}
+.contact .contact_body {
+    position: relative;
+    width: 970px;
+    height: 100%;
+    margin:0 auto;
+    margin:70px auto;
+}
+.contact .contact_body .form {
+    position: absolute;
+    border:1px solid #797979;
+    border-radius: 8px;
+    width: 470px;
+    height:560px;
+}
+.form p {
+    text-align: center;
+    line-height: 35px;
+}
+.contact .contact_body .form input,
+.contact .contact_body .form textarea {
+    width: 350px;
+    border: 1px solid #797979;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.contact .contact_body .form textarea {
+    padding-left: 20px;
+    height: 120px;
+}
+.contact .contact_body .form .submit {
+    width: 370px;
+    background-color: #000;
+    color: #fff;
+    padding-right: 20px;
+}
+.contact .contact_body .contacts {
+    float: right;
+    width: 370px;
+    margin:95px auto;
+}
+.contacts p {
+    display: inline-block;   
+}
+.contacts .title {
+    margin-bottom: 70px;
+}
+.contacts .title p:nth-child(1) {
+    font-size: 42px;
+    margin:0 auto;
+} 
+.contacts .map,
+.contacts .phone,
+.contacts .mail {
+    margin-bottom: 35px;
+}
+.contacts .map p,
+.contacts .phone p,
+.contacts .mail p {
+    padding-left: 20px;
+}
+
+
+
+/*footer*/
+.Footer {
+    height: 410px;
+    background-color: #000;
+    text-align: center;
+}
+.menus {
+    display: flex; 
+    flex-wrap: wrap; 
+    align-content: space-between; 
+    align-items: flex-start; 
+    margin: 0 auto; 
+    padding-top: 110px; 
+    width: 1170px; 
+    height: 220px; 
+}
+.Footer .menus_1,
+.Footer .menus_2,
+.Footer .menus_3,
+.Footer .menus_4 {
+    flex: 1;
+    text-align: left;
+}
+.Footer p {
+    color:#fff;
+    font-size: 14px;
+}
+.Footer span {
+    display: block;
+    margin: 25px 0;
+    font-size: 16px;
+    color: #7a7a7a;
+    width: 260px;
+}
+.Footer .menus_4 img {
+    display: inline-block;
+    margin: 5px 10px 0 10px;
+    opacity:  .6;
+}

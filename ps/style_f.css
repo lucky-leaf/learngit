@@ -1,0 +1,13 @@
+
+/* CSS Document */
+body,ul,li,p,form,fieldset,img,div,input{margin:0; padding:0;}
+body{font-size:16px;width: 1600px;}
+li{list-style:none;}
+input,select,textarea{outline: none; border:none;}
+textarea{resize: none;}
+a{text-decoration:none; color:#656565;}
+input{height:50px;padding-left: 20px;}
+
+/*清除浮动*/
+.clearfix:after{content:"";display:block; clear:both;}
+.clearfix{zoom:1;}
